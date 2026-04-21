@@ -1,0 +1,76 @@
+# ========== 国家配色 ==========
+country	China	#E41A1C
+country	South Korea	#377EB8
+country	Japan	#4DAF4A
+country	Thailand	#984EA3
+country	Vietnam	#FF7F00
+country	Myanmar	#A65628
+country	Taiwan	#F781BF
+
+# ========== 宿主配色 ==========
+host	homo sapiens	#E41A1C
+host	Tick	#4DAF4A
+host	Animal	#377EB8
+host_species	Haemaphysalis_longicornis	#4DAF4A
+host_species	Hedgehog	#984EA3
+host_species	Sheep	#FF7F00
+host_species	Poultry	#A65628
+host_species	Rodent	#F781BF
+host_species	Canine	#999999
+
+# ========== 谱系配色 ==========
+lineage	L1	#E41A1C
+lineage	L2	#377EB8
+lineage	unassigned	#CCCCCC
+
+# ========== 基因型配色 ==========
+genotype	I	#E41A1C
+genotype	II	#E87A2A
+genotype	III	#EDB038
+genotype	IV	#F2E344
+genotype	V	#A6D96A
+genotype	VI	#5EBA6E
+genotype	VII	#2A9D6E
+genotype	VIII	#26828E
+genotype	IX	#2366A9
+genotype	X	#284BAB
+genotype	XI	#5E4FA2
+genotype	XII	#8E5FA8
+genotype	XIII	#B56FA8
+
+# ========== 片段配色 ==========
+segment	L	#E41A1C
+segment	M	#377EB8
+segment	S	#4DAF4A
+
+# ========== 重配模式配色 ==========
+reassortment_pattern	L1-L1-L1	#4DAF4A
+reassortment_pattern	L2-L2-L2	#377EB8
+reassortment_pattern	L1-L2-L1	#E41A1C
+reassortment_pattern	L2-L1-L2	#FF7F00
+reassortment_pattern	other	#CCCCCC
+
+# ========== 中国省份配色 ==========
+division	Shandong	#E41A1C
+division	Henan	#377EB8
+division	Anhui	#4DAF4A
+division	Hubei	#984EA3
+division	Liaoning	#FF7F00
+division	Zhejiang	#A65628
+division	Jiangsu	#F781BF
+division	Other_China	#CCCCCC
+
+# ========== 其他元数据 ==========
+sampling_source	Blood	#E41A1C
+sampling_source	Serum	#377EB8
+sampling_source	Tissue	#4DAF4A
+sampling_source	Environmental_Tick	#984EA3
+is_complete	Yes	#4DAF4A
+is_complete	No	#E41A1C
+technology	Illumina	#377EB8
+technology	Nanopore	#4DAF4A
+technology	Sanger	#984EA3
+clinical_outcome	Fatal	#E41A1C
+clinical_outcome	Recovered	#4DAF4A
+clinical_outcome	Severe	#FF7F00
+clinical_outcome	Mild	#377EB8

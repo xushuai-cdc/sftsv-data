@@ -1,0 +1,107 @@
+{
+  "title": "SFTSV Genomic Surveillance - Severe Fever with Thrombocytopenia Syndrome Virus",
+  "maintainers": [
+    {"name": "Shuai Xu"}
+  ],
+  "colorings": [
+    {
+      "key": "host",
+      "title": "Host",
+      "type": "categorical"
+    },
+    {
+      "key": "host_species",
+      "title": "Host Species",
+      "type": "categorical"
+    },
+    {
+      "key": "lineage",
+      "title": "Lineage (L1/L2)",
+      "type": "categorical"
+    },
+    {
+      "key": "genotype",
+      "title": "Genotype (I-XIII)",
+      "type": "categorical"
+    },
+    {
+      "key": "reassortment_pattern",
+      "title": "Reassortment Pattern",
+      "type": "categorical"
+    },
+    {
+      "key": "segment",
+      "title": "Genome Segment",
+      "type": "categorical"
+    },
+    {
+      "key": "is_complete",
+      "title": "Complete Genome (S+M+L)",
+      "type": "categorical"
+    },
+    {
+      "key": "clinical_outcome",
+      "title": "Clinical Outcome",
+      "type": "categorical"
+    },
+    {
+      "key": "technology",
+      "title": "Sequencing Technology",
+      "type": "categorical"
+    },
+    {
+      "key": "sampling_source",
+      "title": "Sampling Source",
+      "type": "categorical"
+    },
+    {
+      "key": "num_date",
+      "title": "Collection Date",
+      "type": "continuous"
+    },
+    {
+      "key": "country",
+      "title": "Country",
+      "type": "categorical"
+    },
+    {
+      "key": "division",
+      "title": "Province/Division",
+      "type": "categorical"
+    },
+    {
+      "key": "author",
+      "title": "Author",
+      "type": "categorical"
+    }
+  ],
+  "geo_resolutions": [
+    "country",
+    "division",
+    "city"
+  ],
+  "panels": [
+    "tree",
+    "map",
+    "entropy"
+  ],
+  "display_defaults": {
+    "map_triplicate": true,
+    "color_by": "lineage",
+    "geo_resolution": "country"
+  },
+  "filters": [
+    "segment",
+    "country",
+    "division",
+    "host",
+    "host_species",
+    "lineage",
+    "genotype",
+    "reassortment_pattern",
+    "is_complete",
+    "clinical_outcome",
+    "technology",
+    "sampling_source"
+  ]
+}

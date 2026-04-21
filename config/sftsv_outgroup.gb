@@ -1,0 +1,99 @@
+LOCUS       JQ684873                1744 bp    RNA     linear   VRL 22-MAY-2012
+DEFINITION  Severe fever with thrombocytopenia syndrome virus strain
+            SDLZtick12/2010 segment S, complete sequence.
+ACCESSION   JQ684873
+VERSION     JQ684873.1
+KEYWORDS    .
+SOURCE      Severe fever with thrombocytopenia syndrome virus
+  ORGANISM  Severe fever with thrombocytopenia syndrome virus
+            Viruses; Riboviria; Orthornavirae; Negarnaviricota;
+            Polyploviricotina; Bunyaviricetes; Hareavirales; Phenuiviridae;
+            Bandavirus; Bandavirus dabieense.
+REFERENCE   1  (bases 1 to 1744)
+  AUTHORS   Jiang,X., Wang,X., Li,J., Liang,M., Zhang,Q., Bi,Z. and Li,D.
+  TITLE     Biological and genetic characterization of newly discovered SFTS
+            bunyavirus isolated from Haemaphysalis longicornis tick
+  JOURNAL   Unpublished
+REFERENCE   2  (bases 1 to 1744)
+  AUTHORS   Jiang,X., Wang,X., Li,J., Liang,M., Zhang,Q., Bi,Z. and Li,D.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (17-FEB-2012) Department of Viral Hemorrhagic Fever,
+            National Institute for Viral Diseases Control and Prevention, 155
+            Changbai Road, Beijing, Beijing 102206, China
+COMMENT     GenBank Accession Numbers JQ684871-JQ684873 represent the complete
+            genome of Severe fever with thrombocytopenia syndrome virus
+            SDLZtick12/2010.
+            
+            ##Assembly-Data-START##
+            Assembly Method       :: mega v. 4.0
+            Sequencing Technology :: Complete Genomics
+            ##Assembly-Data-END##
+FEATURES             Location/Qualifiers
+     source          1..1744
+                     /organism="Severe fever with thrombocytopenia syndrome
+                     virus"
+                     /mol_type="genomic RNA"
+                     /strain="SDLZtick12/2010"
+                     /host="Haemaphysalis longicornis"
+                     /db_xref="taxon:1003835"
+                     /segment="S"
+                     /geo_loc_name="China"
+                     /collection_date="10-Jul-2010"
+     gene            29..910
+                     /gene="S"
+     CDS             29..910
+                     /gene="S"
+                     /codon_start=1
+                     /product="NSs protein"
+                     /protein_id="AFK08660.1"
+                     /translation="MSLSKCSNVDLKSVAMNANTVRLEPSLGEYPTLRRDLVECSCSV
+                     LTLSMVKRMGKMTNTVWLFGNPKNPLHQLEPGLEQLLDMYYKDMRCYSQRELSALRWP
+                     SGKPSVWFLQAAHMFFSIKNSWAMETGRENWRGLFHRITKGRRYLFEGDMILDSLEAI
+                     EKRRLRLGLPDILITGLSPILDVALLQIESLARLRGMSLNHHLFTSSSLRKPLLDCWD
+                     FFIPIRKKKTDGSYSVLDEDDEPGVLQGYPYLMAHYLNRCPFHNLIRFDEELRTAALN
+                     TIWGRDWPAIGDPPKEV"
+     gene            complement(965..1702)
+                     /gene="S"
+     CDS             complement(965..1702)
+                     /gene="S"
+                     /codon_start=1
+                     /product="N protein"
+                     /protein_id="AFK08661.1"
+                     /translation="MSEWSRIAVEFGEQQLNLTELEDFARELAYEGLDPALIIKKLKE
+                     TGGDDWVKDTKFIIVFALTRGNKIVKASGKMSNSGSKRLMALQEKYGLVERAETRLSI
+                     TPVRVAQSLPTWTCAAAAALKEYLPVGPAVMNLKVENYPPEMMCMAFGSLIPTAGVSE
+                     ATTKTLMEAYSLWQDAFTKTINVKMRGASKTEVYNSFRDPLHAAVNSVFFPNDVRVKW
+                     LKAKGILGPDGVPSRAAEVAAAAYRNL"
+ORIGIN      
+        1 acacaaagac ccccttcatt tggaaaccat gtcactgagc aaatgctcca acgttgacct
+       61 caaatctgtt gcaatgaatg ccaacacagt caggcttgag ccatctctag gagagtaccc
+      121 cactcttagg agggacctcg ttgaatgctc ttgcagtgtg ttgactctgt caatggtcaa
+      181 gaggatgggc aagatgacca acacagtatg gttgtttggc aaccctaaaa atcctcttca
+      241 ccagctcgag cctggacttg agcagctatt ggacatgtac tacaaggata tgaggtgcta
+      301 ctcccagaga gagctgagtg ctcttaggtg gcctagtggg aagccatctg tgtggttctt
+      361 gcaggcagct catatgttct tctccatcaa gaacagctgg gcaatggaaa ctgggagaga
+      421 gaactggcgg ggcctcttcc acaggataac aaaaggccga aggtatcttt ttgaagggga
+      481 catgatattg gattctctag aagccataga gaagcgaagg cttagacttg ggttacctga
+      541 tatcctaata actggactgt ccccaattct ggatgtggcc ctccttcaga tagagtcact
+      601 tgcaaggcta agaggcatga gcttgaacca ccacttgttc acttcttcct cattgcgtaa
+      661 gcctctgcta gactgttggg acttctttat ccccatccgc aaaaagaaga cagatggctc
+      721 atacagtgtc ttggatgagg atgatgagcc tggggtcctt caaggttacc catatctgat
+      781 ggcacactat ttaaacaggt gcccattcca caacctcatc aggtttgatg aggagctgag
+      841 aactgcagcc ctgaacacca tctggggaag agattggcca gccattggtg accccccgaa
+      901 ggaggtctaa ttttgtcgaa ttggatcatg aaatttagcc taattggata tgtcaaattg
+      961 ctgcttacag gttcctgtaa gcagcagcag caacctcagc agctctgctg gggaccccat
+     1021 ctgggccaag gattcccttg gccttcagcc acttcacccg aacatcattg gggaagaaga
+     1081 cagagttcac agcagcatgg agaggatccc tgaaggagtt gtaaacttct gtcttgctgg
+     1141 ctccgcgcat cttcacattg atagtcttgg tgaaggcatc ttgccataaa gagtaagcct
+     1201 ccatcagggt cttggtcgtg gcttcagata cccctgcagt tggaatcagg gacccgaagg
+     1261 ccatgcacat catctcaggg ggataattct cgaccttcag gttcatgacg gctggcccca
+     1321 ctgggagata ctcctttaag gctgctgctg cagcacatgt ccaagtgggg aggctctgcg
+     1381 ctacccttac aggggtgatt gagagcctgg tctctgccct ctcaaccagc ccatatttct
+     1441 cctggagtgc catcaacctc tttgaccctg agtttgacat cttccctgat gccttgacga
+     1501 tcttattgcc tcgagtcagg gcaaagacaa tgatgaactt agtatccttc acccagtcat
+     1561 ctccacctgt ctccttcagc ttcttgatga tcaaagcagg atcaaggcct tcataggcta
+     1621 gctctctcgc gaaatcctca agctcagtca aattgagctg ctgctcacca aactccactg
+     1681 caatcctgga ccactctgac atgatcactc ctttgcgtct ttcctttttt gggggtcttt
+     1741 gtgt
+//
+

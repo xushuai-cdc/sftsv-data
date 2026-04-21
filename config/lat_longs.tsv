@@ -1,0 +1,37 @@
+# ========== 国家级别 ==========
+country	China	35.86166	104.195397
+country	South Korea	35.907757	127.766922
+country	Japan	36.204824	138.252924
+country	Thailand	15.870032	100.992541
+country	Vietnam	14.058324	108.277199
+country	Myanmar	21.913965	95.956223
+country	Taiwan	23.69781	120.960515
+
+# ========== 中国核心省份 ==========
+division	Shandong	36.6683	116.9949
+division	Henan	33.8819	113.5705
+division	Anhui	31.8257	117.2264
+division	Hubei	30.9756	112.2707
+division	Liaoning	41.2956	123.4271
+division	Zhejiang	29.1416	119.7889
+division	Jiangsu	32.9711	118.7805
+
+# ========== 中国其他报告省份==========
+division	Guangdong	23.3790	113.7634
+division	Beijing	39.9042	116.4074
+division	Shanghai	31.2304	121.4737
+division	Guangxi	22.8152	108.3275
+division	Yunnan	24.4753	101.3434
+
+# ========== 韩国行政区划==========
+division	Gangwon	37.8228	128.1555
+division	Gyeonggi	37.4138	127.5183
+division	North_Gyeongsang	36.4919	128.8889
+
+# ========== 日本地区==========
+division	Japan_Western	34.6938	133.5101
+division	Japan_Eastern	35.6895	139.6917
+
+# ========== 东南亚其他国家 ==========
+division	Thailand_North	18.7883	98.9853
+division	Vietnam_North	21.0285	105.8542
