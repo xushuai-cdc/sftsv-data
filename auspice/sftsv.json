@@ -1,0 +1,1759 @@
+{
+  "version": "v2",
+  "meta": {
+    "title": "SFTSV Genomic Surveillance - Severe Fever with Thrombocytopenia Syndrome Virus",
+    "updated": "2026-04-20",
+    "maintainers": [
+      {
+        "name": "Shuai Xu"
+      }
+    ],
+    "display_defaults": {
+      "map_triplicate": true,
+      "color_by": "lineage",
+      "geo_resolution": "country"
+    },
+    "genome_annotations": {
+      "nuc": {
+        "end": 1744,
+        "start": 1,
+        "strand": "+",
+        "type": "source",
+        "seqid": "config/sftsv_outgroup.gb"
+      },
+      "S": {
+        "end": 1702,
+        "seqid": "config/sftsv_outgroup.gb",
+        "start": 965,
+        "strand": "-",
+        "type": "CDS"
+      }
+    },
+    "colorings": [
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "host",
+        "title": "Host",
+        "type": "categorical",
+        "scale": [
+          [
+            "Homo sapiens",
+            "#E41A1C"
+          ],
+          [
+            "Tick",
+            "#4DAF4A"
+          ]
+        ]
+      },
+      {
+        "key": "host_species",
+        "title": "Host Species",
+        "type": "categorical"
+      },
+      {
+        "key": "segment",
+        "title": "Genome Segment",
+        "type": "categorical",
+        "scale": [
+          [
+            "S",
+            "#4DAF4A"
+          ]
+        ]
+      },
+      {
+        "key": "technology",
+        "title": "Sequencing Technology",
+        "type": "categorical",
+        "scale": [
+          [
+            "Illumina",
+            "#377EB8"
+          ]
+        ]
+      },
+      {
+        "key": "sampling_source",
+        "title": "Sampling Source",
+        "type": "categorical",
+        "scale": [
+          [
+            "serum",
+            "#377EB8"
+          ]
+        ]
+      },
+      {
+        "key": "num_date",
+        "title": "Collection Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "title": "Country",
+        "type": "categorical",
+        "scale": [
+          [
+            "China",
+            "#E41A1C"
+          ]
+        ]
+      },
+      {
+        "key": "division",
+        "title": "Province/Division",
+        "type": "categorical",
+        "scale": [
+          [
+            "Henan",
+            "#377EB8"
+          ],
+          [
+            "Liaoning",
+            "#FF7F00"
+          ]
+        ]
+      },
+      {
+        "key": "author",
+        "title": "Author",
+        "type": "categorical"
+      }
+    ],
+    "filters": [
+      "segment",
+      "country",
+      "division",
+      "host",
+      "host_species",
+      "lineage",
+      "genotype",
+      "reassortment_pattern",
+      "is_complete",
+      "clinical_outcome",
+      "technology",
+      "sampling_source"
+    ],
+    "geo_resolutions": [
+      {
+        "key": "country",
+        "demes": {
+          "China": {
+            "latitude": 35.86166,
+            "longitude": 104.195397
+          }
+        }
+      },
+      {
+        "key": "division",
+        "demes": {
+          "Liaoning": {
+            "latitude": 41.2956,
+            "longitude": 123.4271
+          },
+          "Henan": {
+            "latitude": 33.8819,
+            "longitude": 113.5705
+          }
+        }
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ]
+  },
+  "tree": {
+    "name": "NODE_0000007",
+    "node_attrs": {
+      "div": 0,
+      "num_date": {
+        "value": 1997.037,
+        "confidence": [
+          1966.548,
+          2007.797
+        ]
+      },
+      "country": {
+        "value": "China"
+      }
+    },
+    "branch_attrs": {
+      "mutations": {}
+    },
+    "children": [
+      {
+        "name": "NODE_0000005",
+        "node_attrs": {
+          "div": 0.00807471,
+          "num_date": {
+            "value": 2008.883,
+            "confidence": [
+              2005.496,
+              2010.322
+            ]
+          },
+          "country": {
+            "value": "China"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A70T",
+              "T88A",
+              "A133G",
+              "T154C",
+              "C259T",
+              "G268A",
+              "C359T",
+              "C412T",
+              "T415G",
+              "A459G",
+              "A462G",
+              "T499A",
+              "G541T",
+              "A559G",
+              "C586T",
+              "G670A",
+              "T796C",
+              "A832G",
+              "T894C",
+              "T974C",
+              "A1073G",
+              "C1187T",
+              "T1217C",
+              "A1256G",
+              "A1370G",
+              "C1388T",
+              "A1394G",
+              "T1412C",
+              "T1442C",
+              "A1463T",
+              "T1541A",
+              "A1556G",
+              "G1601A",
+              "C1619T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "2014221S",
+            "node_attrs": {
+              "div": 0.00980101,
+              "num_date": {
+                "value": 2014.963,
+                "confidence": [
+                  2014.963,
+                  2014.963
+                ],
+                "inferred": false
+              },
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075913",
+              "accession": "KR075913",
+              "author": {
+                "author": "Yanhua D",
+                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                "value": "Yanhua D"
+              },
+              "segment": {
+                "value": "S"
+              },
+              "sampling_source": {
+                "value": "serum"
+              },
+              "host_species": {
+                "value": "Patient"
+              },
+              "division": {
+                "value": "Henan"
+              },
+              "technology": {
+                "value": "Sanger dideoxy sequencing"
+              },
+              "country": {
+                "value": "China"
+              },
+              "host": {
+                "value": "Homo sapiens"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "T21G",
+                  "T1229C"
+                ]
+              }
+            }
+          },
+          {
+            "name": "NODE_0000003",
+            "node_attrs": {
+              "div": 0.00864875,
+              "num_date": {
+                "value": 2009.423,
+                "confidence": [
+                  2006.35,
+                  2010.362
+                ]
+              },
+              "country": {
+                "value": "China"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A226T",
+                  "G535A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000001",
+                "node_attrs": {
+                  "div": 0.0103722,
+                  "num_date": {
+                    "value": 2009.977,
+                    "confidence": [
+                      2007.65,
+                      2010.5
+                    ]
+                  },
+                  "country": {
+                    "value": "China"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C289T",
+                      "T668C",
+                      "A1292G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "SDLZtick12/2010",
+                    "node_attrs": {
+                      "div": 0.0120961,
+                      "num_date": {
+                        "value": 2010.522,
+                        "confidence": [
+                          2010.522,
+                          2010.522
+                        ],
+                        "inferred": false
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/JQ684873",
+                      "accession": "JQ684873",
+                      "author": {
+                        "author": "Jiang X et al",
+                        "title": "Biological and genetic characterization of newly discovered SFTS bunyavirus isolated from Haemaphysalis longicornis tick",
+                        "value": "Jiang X et al"
+                      },
+                      "segment": {
+                        "value": "S"
+                      },
+                      "sampling_source": {
+                        "value": "Tick_pool"
+                      },
+                      "host_species": {
+                        "value": "Haemaphysalis longicornis"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "host": {
+                        "value": "Tick"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T247C",
+                          "A352G",
+                          "T694C"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000002",
+                    "node_attrs": {
+                      "div": 0.0161342,
+                      "num_date": {
+                        "value": 2014.324,
+                        "confidence": [
+                          2013.424,
+                          2014.809
+                        ]
+                      },
+                      "country": {
+                        "value": "China"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C139T",
+                          "T334C",
+                          "A499T",
+                          "C691T",
+                          "A784T",
+                          "G1079A",
+                          "T1322A",
+                          "A1391T",
+                          "T1463A",
+                          "A1594G"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "2014187S",
+                        "node_attrs": {
+                          "div": 0.0167083,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.963,
+                              2014.963
+                            ],
+                            "inferred": false
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075915",
+                          "accession": "KR075915",
+                          "author": {
+                            "author": "Yanhua D",
+                            "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                            "value": "Yanhua D"
+                          },
+                          "segment": {
+                            "value": "S"
+                          },
+                          "sampling_source": {
+                            "value": "serum"
+                          },
+                          "host_species": {
+                            "value": "Patient"
+                          },
+                          "division": {
+                            "value": "Henan"
+                          },
+                          "technology": {
+                            "value": "Sanger dideoxy sequencing"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "host": {
+                            "value": "Homo sapiens"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "T1142C"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "2014186S",
+                        "node_attrs": {
+                          "div": 0.0172826,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.963,
+                              2014.963
+                            ],
+                            "inferred": false
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075914",
+                          "accession": "KR075914",
+                          "author": {
+                            "author": "Yanhua D",
+                            "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                            "value": "Yanhua D"
+                          },
+                          "segment": {
+                            "value": "S"
+                          },
+                          "sampling_source": {
+                            "value": "serum"
+                          },
+                          "host_species": {
+                            "value": "Patient"
+                          },
+                          "division": {
+                            "value": "Henan"
+                          },
+                          "technology": {
+                            "value": "Sanger dideoxy sequencing"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "host": {
+                            "value": "Homo sapiens"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C850T",
+                              "C1685T"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000004",
+                "node_attrs": {
+                  "div": 0.0115234,
+                  "num_date": {
+                    "value": 2014.247,
+                    "confidence": [
+                      2013.274,
+                      2014.865
+                    ]
+                  },
+                  "country": {
+                    "value": "China"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C58T",
+                      "A172G",
+                      "C190T",
+                      "T226C",
+                      "A670G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "2014101S",
+                    "node_attrs": {
+                      "div": 0.012672,
+                      "num_date": {
+                        "value": 2014.963,
+                        "confidence": [
+                          2014.963,
+                          2014.963
+                        ],
+                        "inferred": false
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075919",
+                      "accession": "KR075919",
+                      "author": {
+                        "author": "Yanhua D",
+                        "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                        "value": "Yanhua D"
+                      },
+                      "segment": {
+                        "value": "S"
+                      },
+                      "sampling_source": {
+                        "value": "serum"
+                      },
+                      "host_species": {
+                        "value": "Patient"
+                      },
+                      "division": {
+                        "value": "Henan"
+                      },
+                      "technology": {
+                        "value": "Sanger dideoxy sequencing"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "host": {
+                        "value": "Homo sapiens"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G307A",
+                          "A565T"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "NODE_0000013",
+                    "node_attrs": {
+                      "div": 0.0115234,
+                      "num_date": {
+                        "value": 2014.875,
+                        "confidence": [
+                          2014.219,
+                          2014.957
+                        ]
+                      },
+                      "country": {
+                        "value": "China"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "name": "2014175S",
+                        "node_attrs": {
+                          "div": 0.0115234,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.963,
+                              2014.963
+                            ],
+                            "inferred": false
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075920",
+                          "accession": "KR075920",
+                          "author": {
+                            "author": "Yanhua D",
+                            "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                            "value": "Yanhua D"
+                          },
+                          "segment": {
+                            "value": "S"
+                          },
+                          "sampling_source": {
+                            "value": "serum"
+                          },
+                          "host_species": {
+                            "value": "Patient"
+                          },
+                          "division": {
+                            "value": "Henan"
+                          },
+                          "technology": {
+                            "value": "Sanger dideoxy sequencing"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "host": {
+                            "value": "Homo sapiens"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000019",
+                        "node_attrs": {
+                          "div": 0.0115234,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.656,
+                              2014.963
+                            ]
+                          },
+                          "country": {
+                            "value": "China"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "name": "2014181S",
+                            "node_attrs": {
+                              "div": 0.0115234,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075922",
+                              "accession": "KR075922",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "2014178S",
+                            "node_attrs": {
+                              "div": 0.0115234,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075921",
+                              "accession": "KR075921",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "NODE_0000008",
+        "node_attrs": {
+          "div": 0.0121582,
+          "num_date": {
+            "value": 1999.302,
+            "confidence": [
+              1973.44,
+              2009.034
+            ]
+          },
+          "country": {
+            "value": "China"
+          }
+        },
+        "branch_attrs": {
+          "mutations": {
+            "nuc": [
+              "A34G",
+              "G361A",
+              "A1189G",
+              "C1481T"
+            ]
+          }
+        },
+        "children": [
+          {
+            "name": "SZ-202101",
+            "node_attrs": {
+              "div": 0.0360562,
+              "num_date": {
+                "value": 2021.601,
+                "confidence": [
+                  2021.601,
+                  2021.601
+                ],
+                "inferred": false
+              },
+              "url": "https://www.ncbi.nlm.nih.gov/nuccore/PQ374006",
+              "accession": "PQ374006",
+              "author": {
+                "author": "Zhang X et al",
+                "title": "Unpublished",
+                "value": "Zhang X et al"
+              },
+              "segment": {
+                "value": "S"
+              },
+              "sampling_source": {
+                "value": "serum"
+              },
+              "host_species": {
+                "value": "Patient"
+              },
+              "technology": {
+                "value": "Illumina"
+              },
+              "country": {
+                "value": "China"
+              },
+              "host": {
+                "value": "Homo sapiens"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "A70T",
+                  "C85T",
+                  "G169A",
+                  "G214A",
+                  "A229G",
+                  "C280T",
+                  "T373C",
+                  "T658C",
+                  "T694C",
+                  "T731C",
+                  "A793G",
+                  "C814T",
+                  "C883T",
+                  "A986G",
+                  "G1115A",
+                  "T1127C",
+                  "G1139A",
+                  "A1163G",
+                  "A1196G",
+                  "G1214C",
+                  "A1244G",
+                  "A1292G",
+                  "G1310A",
+                  "A1339G",
+                  "C1379T",
+                  "T1382A",
+                  "G1403A",
+                  "T1469A",
+                  "T1475C",
+                  "T1487C",
+                  "G1499A",
+                  "A1505G",
+                  "A1544G",
+                  "T1548C",
+                  "G1631A",
+                  "C1637T"
+                ],
+                "S": [
+                  "K52R"
+                ]
+              },
+              "labels": {
+                "aa": "S: K52R"
+              }
+            }
+          },
+          {
+            "name": "NODE_0000009",
+            "node_attrs": {
+              "div": 0.0150299,
+              "num_date": {
+                "value": 2003.155,
+                "confidence": [
+                  1978.386,
+                  2009.738
+                ]
+              },
+              "country": {
+                "value": "China"
+              }
+            },
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "C259T",
+                  "T415A",
+                  "C691T",
+                  "A1106G",
+                  "T1235C",
+                  "C1253T",
+                  "C1430T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "name": "NODE_0000010",
+                "node_attrs": {
+                  "div": 0.0289187,
+                  "num_date": {
+                    "value": 2015.074,
+                    "confidence": [
+                      2007.334,
+                      2017.746
+                    ]
+                  },
+                  "country": {
+                    "value": "China"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "T127C",
+                      "A145G",
+                      "C190T",
+                      "A205T",
+                      "A208T",
+                      "G214A",
+                      "C266T",
+                      "T325C",
+                      "G343A",
+                      "A460G",
+                      "T466C",
+                      "A508T",
+                      "G535A",
+                      "G637A",
+                      "G667A",
+                      "A695G",
+                      "T773C",
+                      "T1034C",
+                      "C1055T",
+                      "G1100A",
+                      "A1196G",
+                      "T1382A",
+                      "T1412C",
+                      "A1463G",
+                      "T1697C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "2020_P2_plasma/2020/China/Shandong",
+                    "node_attrs": {
+                      "div": 0.0375742,
+                      "num_date": {
+                        "value": 2020.764,
+                        "confidence": [
+                          2020.764,
+                          2020.764
+                        ],
+                        "inferred": false
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/OP379674",
+                      "accession": "OP379674",
+                      "author": {
+                        "author": "Quan C et al",
+                        "title": "Severe fever with thrombocytopenia syndrome virus infection is associated with transient overproliferation of monoclonal lambda-type plasma cells",
+                        "value": "Quan C et al"
+                      },
+                      "segment": {
+                        "value": "S"
+                      },
+                      "sampling_source": {
+                        "value": "plasma"
+                      },
+                      "host_species": {
+                        "value": "Patient"
+                      },
+                      "technology": {
+                        "value": "MGI2000"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "host": {
+                        "value": "Homo sapiens"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T253C",
+                          "G340A",
+                          "T373C",
+                          "A448T",
+                          "T647C",
+                          "A721T",
+                          "G754A",
+                          "A763T",
+                          "A805T",
+                          "C1319T",
+                          "A1339G",
+                          "G1340A",
+                          "T1349A",
+                          "A1391T",
+                          "A1634G"
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "name": "SFS",
+                    "node_attrs": {
+                      "div": 0.0394993,
+                      "num_date": {
+                        "value": 2022.582,
+                        "confidence": [
+                          2022.582,
+                          2022.582
+                        ],
+                        "inferred": false
+                      },
+                      "url": "https://www.ncbi.nlm.nih.gov/nuccore/OQ716538",
+                      "accession": "OQ716538",
+                      "author": {
+                        "author": "Tong Y et al",
+                        "title": "Metagenomics analysis of tick-borne viruses in Liaoning Province, China",
+                        "value": "Tong Y et al"
+                      },
+                      "segment": {
+                        "value": "S"
+                      },
+                      "sampling_source": {
+                        "value": "Grassland, forest"
+                      },
+                      "division": {
+                        "value": "Liaoning"
+                      },
+                      "country": {
+                        "value": "China"
+                      },
+                      "host": {
+                        "value": "Tick"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G328A",
+                          "A352T",
+                          "T499C",
+                          "C608T",
+                          "A721G",
+                          "T756C",
+                          "T760A",
+                          "A772T",
+                          "G838A",
+                          "T886C",
+                          "T1142C",
+                          "A1292G",
+                          "C1298T",
+                          "C1316G",
+                          "C1317G",
+                          "C1318G",
+                          "C1622T",
+                          "A1667T"
+                        ],
+                        "S": [
+                          "G129P"
+                        ]
+                      },
+                      "labels": {
+                        "aa": "S: G129P"
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "name": "NODE_0000011",
+                "node_attrs": {
+                  "div": 0.0371693,
+                  "num_date": {
+                    "value": 2012.797,
+                    "confidence": [
+                      2010.31,
+                      2014.096
+                    ]
+                  },
+                  "country": {
+                    "value": "China"
+                  }
+                },
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "C82T",
+                      "C91T",
+                      "A103T",
+                      "T106C",
+                      "A109G",
+                      "C167T",
+                      "A172G",
+                      "A226T",
+                      "C241T",
+                      "G262A",
+                      "G271A",
+                      "G313A",
+                      "G455A",
+                      "G520A",
+                      "C544T",
+                      "A547G",
+                      "G670A",
+                      "C682T",
+                      "T688C",
+                      "T760C",
+                      "A763G",
+                      "G835A",
+                      "A854G",
+                      "C862T",
+                      "A931G",
+                      "G1013A",
+                      "G1121A",
+                      "G1145A",
+                      "C1205A",
+                      "C1247T",
+                      "A1352T",
+                      "A1364G",
+                      "G1373A",
+                      "T1436C",
+                      "T1475A",
+                      "T1541C",
+                      "G1601A"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "name": "NODE_0000012",
+                    "node_attrs": {
+                      "div": 0.0377421,
+                      "num_date": {
+                        "value": 2013.658,
+                        "confidence": [
+                          2011.869,
+                          2014.582
+                        ]
+                      },
+                      "country": {
+                        "value": "China"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T226C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "2014218S",
+                        "node_attrs": {
+                          "div": 0.0388883,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.963,
+                              2014.963
+                            ],
+                            "inferred": false
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075912",
+                          "accession": "KR075912",
+                          "author": {
+                            "author": "Yanhua D",
+                            "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                            "value": "Yanhua D"
+                          },
+                          "segment": {
+                            "value": "S"
+                          },
+                          "sampling_source": {
+                            "value": "serum"
+                          },
+                          "host_species": {
+                            "value": "Patient"
+                          },
+                          "division": {
+                            "value": "Henan"
+                          },
+                          "technology": {
+                            "value": "Sanger dideoxy sequencing"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "host": {
+                            "value": "Homo sapiens"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A70G",
+                              "C1517T"
+                            ]
+                          }
+                        }
+                      },
+                      {
+                        "name": "2014197S",
+                        "node_attrs": {
+                          "div": 0.0394621,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.963,
+                              2014.963
+                            ],
+                            "inferred": false
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075910",
+                          "accession": "KR075910",
+                          "author": {
+                            "author": "Yanhua D",
+                            "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                            "value": "Yanhua D"
+                          },
+                          "segment": {
+                            "value": "S"
+                          },
+                          "sampling_source": {
+                            "value": "serum"
+                          },
+                          "host_species": {
+                            "value": "Patient"
+                          },
+                          "division": {
+                            "value": "Henan"
+                          },
+                          "technology": {
+                            "value": "Sanger dideoxy sequencing"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "host": {
+                            "value": "Homo sapiens"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A256G",
+                              "C760T",
+                              "T780A"
+                            ]
+                          }
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000014",
+                    "node_attrs": {
+                      "div": 0.0377421,
+                      "num_date": {
+                        "value": 2014.456,
+                        "confidence": [
+                          2013.557,
+                          2014.957
+                        ]
+                      },
+                      "country": {
+                        "value": "China"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G445A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "2014073S",
+                        "node_attrs": {
+                          "div": 0.0377421,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.963,
+                              2014.963
+                            ],
+                            "inferred": false
+                          },
+                          "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075918",
+                          "accession": "KR075918",
+                          "author": {
+                            "author": "Yanhua D",
+                            "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                            "value": "Yanhua D"
+                          },
+                          "segment": {
+                            "value": "S"
+                          },
+                          "sampling_source": {
+                            "value": "serum"
+                          },
+                          "host_species": {
+                            "value": "Patient"
+                          },
+                          "division": {
+                            "value": "Henan"
+                          },
+                          "technology": {
+                            "value": "Sanger dideoxy sequencing"
+                          },
+                          "country": {
+                            "value": "China"
+                          },
+                          "host": {
+                            "value": "Homo sapiens"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {}
+                        }
+                      },
+                      {
+                        "name": "NODE_0000015",
+                        "node_attrs": {
+                          "div": 0.0383147,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.614,
+                              2014.963
+                            ]
+                          },
+                          "country": {
+                            "value": "China"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C1235T"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "2014203S",
+                            "node_attrs": {
+                              "div": 0.0383147,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075911",
+                              "accession": "KR075911",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "2014206S",
+                            "node_attrs": {
+                              "div": 0.0383147,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075909",
+                              "accession": "KR075909",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "name": "NODE_0000016",
+                    "node_attrs": {
+                      "div": 0.0377421,
+                      "num_date": {
+                        "value": 2012.892,
+                        "confidence": [
+                          2010.821,
+                          2014.272
+                        ]
+                      },
+                      "country": {
+                        "value": "China"
+                      }
+                    },
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "G34A"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "div": 0.0411903,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.644,
+                              2014.963
+                            ]
+                          },
+                          "country": {
+                            "value": "China"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A747G",
+                              "A1014G",
+                              "G1025T",
+                              "C1166T",
+                              "A1205G",
+                              "C1517T"
+                            ],
+                            "S": [
+                              "V230A"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "S: V230A"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "2014083S",
+                            "node_attrs": {
+                              "div": 0.0411903,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075924",
+                              "accession": "KR075924",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "2014045S",
+                            "node_attrs": {
+                              "div": 0.0411903,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075923",
+                              "accession": "KR075923",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "name": "NODE_0000018",
+                        "node_attrs": {
+                          "div": 0.0417589,
+                          "num_date": {
+                            "value": 2014.963,
+                            "confidence": [
+                              2014.675,
+                              2014.963
+                            ]
+                          },
+                          "country": {
+                            "value": "China"
+                          }
+                        },
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "C61T",
+                              "C504T",
+                              "G595A",
+                              "C649T",
+                              "G1189A",
+                              "G1193A",
+                              "T1399C"
+                            ],
+                            "S": [
+                              "I102V"
+                            ]
+                          },
+                          "labels": {
+                            "aa": "S: I102V"
+                          }
+                        },
+                        "children": [
+                          {
+                            "name": "2014196S",
+                            "node_attrs": {
+                              "div": 0.0417589,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075917",
+                              "accession": "KR075917",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          },
+                          {
+                            "name": "2014193S",
+                            "node_attrs": {
+                              "div": 0.0417589,
+                              "num_date": {
+                                "value": 2014.963,
+                                "confidence": [
+                                  2014.963,
+                                  2014.963
+                                ],
+                                "inferred": false
+                              },
+                              "url": "https://www.ncbi.nlm.nih.gov/nuccore/KR075916",
+                              "accession": "KR075916",
+                              "author": {
+                                "author": "Yanhua D",
+                                "title": "The genotypes and phylogenetic analysis of severe fever with thrombocytopenia syndrome virus (SFTSV) in Henan Province, China, 2013",
+                                "value": "Yanhua D"
+                              },
+                              "segment": {
+                                "value": "S"
+                              },
+                              "sampling_source": {
+                                "value": "serum"
+                              },
+                              "host_species": {
+                                "value": "Patient"
+                              },
+                              "division": {
+                                "value": "Henan"
+                              },
+                              "technology": {
+                                "value": "Sanger dideoxy sequencing"
+                              },
+                              "country": {
+                                "value": "China"
+                              },
+                              "host": {
+                                "value": "Homo sapiens"
+                              }
+                            },
+                            "branch_attrs": {
+                              "mutations": {}
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
